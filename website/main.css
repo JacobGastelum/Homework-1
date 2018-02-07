@@ -23,6 +23,12 @@
     border-right: 5px solid #C00000;
     border-bottom: 5px solid #C00000;
 }
+p {
+    margin: 0;
+}
+ol {
+    margin: 0;
+}
 .text-center {
     text-align: center;
 }
@@ -42,11 +48,16 @@ img {
 #title-line {
     border-bottom: 4px solid #20B966;
     width: 65%;
+    padding-bottom: 8px;
     font-size: 200%;
+}
+#subheader-line {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .form-box {
     border: 1px solid rgb(207, 205, 205);
-    border-radius: 7px;
+    border-radius: 6px;
     width: 75%;
     margin: auto;
     padding: 15px;
@@ -54,4 +65,8 @@ img {
 } 
   form > div {
     margin: 10px 0;
+}
+button {
+    background: white;
+    border-radius: 6px;
 }
