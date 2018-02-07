@@ -13,17 +13,17 @@
         </div>
         <div class="text-center">
             <p><em>Welcome to IS 445 Homework 1</em></p>
-            <img src="TelephonePole.jpg" alt="Telephone Pole"
+            <img src="TelephonePole.jpg" alt="Telephone Pole">
         </div>
         <div class="flex-row">
-            <div id="about-me-column">
-                <p class="text-center">About Me</p>
+            <div class="text-left" id="about-me-column">
+                <p class="text-center"><Strong>About Me</Strong></p>
                 <div>
-                    <h class="text-underline">Education</h>
+                    <h class="text-underline"><strong>Education</strong></h>
                     <p>2018, BS of Business Admin: IS, CSULB</p>
                 </div>
                 <div>
-                    <h class="text-underline">Skills</h>
+                    <h class="text-underline"><strong>Skills</strong></h>
                     <ol>
                     <li>Web programming: node.js, HTML, CSS</li>
                     <li>Python</li>
@@ -34,12 +34,23 @@
                 </div>
             </div>
             <div id="contact-me-column">
-                <p class="text-center">Contact Me</p>
+                <p class="text-center"><strong>Contact Me</strong></p>
                 <form class="form-box">
-                    Name:<br><input type="text"><br>
-                    Email:<br><input type="text"><br>
-                    Message:<br><input type="text"><br><br>
-                    <input type="submit" value="Send your message">
+                    <div class="label-text">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input name="name" id="email" type="text">
+                        </div>
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input name="email" id="email" type="email">
+                        </div>
+                        <div>
+                            <label for="comment">Message:</label>
+                            <textarea name="comment" id="comment" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit">Send your message</button>
                 </form>
             </div>
         </div>

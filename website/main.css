@@ -16,6 +16,7 @@
 }
 #about-me-column {
     border: 5px solid #C00000;
+    padding-left: 7px;
 }
 #contact-me-column {
     border-top: 5px solid #C00000;
@@ -25,20 +26,32 @@
 .text-center {
     text-align: center;
 }
+.text-left {
+    text-align: left;
+}
 .text-underline {
     text-decoration: underline;
+}
+.label-text{
+    text-align: right;
+    padding-right: 20px;
 }
 img {
     height: 250px;
 }
 #title-line {
     border-bottom: 4px solid #20B966;
-    margin: auto;
     width: 65%;
+    font-size: 200%;
 }
 .form-box {
-    border: 1px solid gray;
-    border-radius: 10px;
+    border: 1px solid rgb(207, 205, 205);
+    border-radius: 7px;
+    width: 75%;
+    margin: auto;
     padding: 15px;
+    text-align: center;
+} 
+  form > div {
+    margin: 10px 0;
 }
-  
