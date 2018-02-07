@@ -8,14 +8,40 @@
 </head>
 <body>
     <div class="flex-container">    
-        <div class="text-center">
+        <div class="text-center" id="title-line">
             <p><Strong>Gastelum, Jacob</Strong></p>
+        </div>
+        <div class="text-center">
             <p><em>Welcome to IS 445 Homework 1</em></p>
-            <img src="TelephonePole.jpg" alt="Telephone Pole">
+            <img src="TelephonePole.jpg" alt="Telephone Pole"
         </div>
         <div class="flex-row">
-            <div>About Me</div>
-            <div>Contact Me</div>
+            <div id="about-me-column">
+                <p class="text-center">About Me</p>
+                <div>
+                    <h class="text-underline">Education</h>
+                    <p>2018, BS of Business Admin: IS, CSULB</p>
+                </div>
+                <div>
+                    <h class="text-underline">Skills</h>
+                    <ol>
+                    <li>Web programming: node.js, HTML, CSS</li>
+                    <li>Python</li>
+                    <li>C++ (novice)</li>
+                    </ol>
+                    <h class="text-underline">Expectations for this course</h>
+                    <p>I'd like to learn the fundamentals of, and best practises for web development. I often have trouble formulating an effective organization system for code so I am looking forward to learning what standards those in the industry adhere to.</p>
+                </div>
+            </div>
+            <div id="contact-me-column">
+                <p class="text-center">Contact Me</p>
+                <form class="form-box">
+                    Name:<br><input type="text"><br>
+                    Email:<br><input type="text"><br>
+                    Message:<br><input type="text"><br><br>
+                    <input type="submit" value="Send your message">
+                </form>
+            </div>
         </div>
     </div>
 </body>
