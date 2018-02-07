@@ -11,17 +11,16 @@
     width: 900px;
     padding-top: 25px;
 }
-.flex-row div {
-    width: 50%;
-}
 #about-me-column {
     border: 5px solid #C00000;
     padding-left: 7px;
+    width: 100%;
 }
 #contact-me-column {
     border-top: 5px solid #C00000;
     border-right: 5px solid #C00000;
     border-bottom: 5px solid #C00000;
+    width: 100%;
 }
 p {
     margin: 0;
@@ -37,10 +36,6 @@ ol {
 }
 .text-underline {
     text-decoration: underline;
-}
-.label-text{
-    text-align: right;
-    padding-right: 20px;
 }
 img {
     height: 250px;
