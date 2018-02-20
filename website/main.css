@@ -11,17 +11,9 @@
     width: 900px;
     padding-top: 25px;
 }
-#about-me-column {
-    border: 5px solid #C00000;
-    padding-left: 7px;
-    width: 100%;
-}
-#contact-me-column {
-    border-top: 5px solid #C00000;
-    border-right: 5px solid #C00000;
-    border-bottom: 5px solid #C00000;
-    padding-bottom: 50px;
-    width: 100%;
+#navbar {
+    display: block;
+    height: 1000px;
 }
 p {
     margin: 0;
