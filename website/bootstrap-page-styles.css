@@ -1,0 +1,16 @@
+.scroll {
+    overflow: auto;
+    height: 100%;
+    padding-top: 100px;
+    margin-left: 30px;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 75%;
+}
+.container-2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+}
