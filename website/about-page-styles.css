@@ -44,6 +44,7 @@ img {
 #title-line {
     border-bottom: 4px solid #20B966;
     width: 65%;
+    padding-top: 150px;
     padding-bottom: 8px;
     font-size: 200%;
 }
@@ -65,4 +66,73 @@ img {
 button {
     background: white;
     border-radius: 6px;
+}
+
+@media only screen and (max-width: 768px) {
+    width: 100%;
+    #about-me-column {
+        border: 5px solid #C00000;
+        width: auto;
+
+    }
+    #contact-me-column {
+        border: 5px solid #C00000;
+        width: 100%;
+    }
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: auto;
+        width: auto;
+    }
+    .flex-row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 25px;
+        width: auto;
+    }
+    p {
+        margin: 0;
+    }
+    ol {
+        margin: 0;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .text-left {
+        text-align: left;
+    }
+    .text-underline {
+        text-decoration: underline;
+    }
+    img {
+        height: 250px;
+    }
+    #title-line {
+        border-bottom: 4px solid #20B966;
+        width: auto;
+        padding-top: 300px;
+        padding-bottom: 8px;
+        font-size: 200%;
+    }
+    #subheader-line {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .form-box {
+        border: 1px solid rgb(207, 205, 205);
+        border-radius: 3px;
+        margin: auto;
+        padding: 10px;
+    } 
+      form > div {
+        margin: 10px 0;
+    }
+    button {
+        background: white;
+        border-radius: 6px;
+    }
 }
